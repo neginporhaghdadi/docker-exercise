@@ -1,0 +1,7 @@
+services:
+  exercise-docker:
+    build: .
+    container_name: exercise-docker
+    ports:
+      - "8080:80"
+    restart: unless-stopped
